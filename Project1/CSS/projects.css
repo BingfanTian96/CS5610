@@ -1,0 +1,92 @@
+/* project page */
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "p1"
+        "p2"
+        "p3"
+        "p4"
+    ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    padding:10% 10%;
+    width: 100%;
+    height: auto;
+    background-color: #0f0c27;
+}
+
+.img-section img {
+    width: 360px;
+    height: 100%;
+}
+
+.detail_section {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.project_details {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.sub_details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    border-bottom: solid 0.5px grey;
+}
+
+.points li {
+    margin: 1%;
+}
+
+.p1 {
+    border: 2px;
+    grid-area: p1;
+    display: flex;
+    text-align: left;    
+    color: white;
+    justify-content: space-between;
+}
+
+.p2 {
+    border: 2px;
+    grid-area: p2;
+    display: flex;
+    text-align: left;    
+    color: white;
+    justify-content: space-between;
+}
+
+.p3 {
+    border: 2px;
+    grid-area: p3;
+    display: flex;
+    text-align: left;    
+    color: white;
+    justify-content: space-between;
+}
+
+.p4 {
+    border: 2px;
+    grid-area: p4;
+    display: flex;
+    text-align: left;    
+    color: white;
+    justify-content: space-between;
+}
+
+.github_link {
+    color: white;
+    text-decoration: none;
+    background-color: #033a80;
+    border-radius: 5px;
+    border: none;
+}
+
+.github_link:hover {
+    background-color: dodgerblue;
+}

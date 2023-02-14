@@ -1,0 +1,109 @@
+/* home page */
+p {
+    margin: 10px;
+}
+
+.home{
+    background-color: #0f0c27;
+    display: flex;
+    justify-content: space-between;
+    padding:15% 10% 10%;
+    height: 100vh;
+}
+
+.social {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.social a i {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.home-text {
+    color: white;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+}
+
+.para-home {
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+
+.home-img img {
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+/* homepage-about me part */
+.aboutme {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding: 10% 10% 0px;
+    height: auto;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+}
+
+.aboutme-section {
+    display: flex;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.my-img {
+    border-radius: 20px;
+}
+
+.img-section {
+    margin-left: 5%;
+    height: 550px;
+    width: 400px;
+}
+
+.img-section img {
+    height: 550px;
+    width: 400px;
+}
+
+.aboutme-text {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.aboutme-heading {
+    font-size: 2.5rem;
+}
+
+/* footer */
+
+.myfooter{
+    background-color: #033a80;
+    color: white;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
