@@ -12,18 +12,26 @@
 <body>
     <!-- NavBar -->
     <header>
-        <a href="#" class="logo">Bingfan Tian</a>
+        <a href="../HomePage/index.html" class="logo">Bingfan Tian</a>
 
         <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">MyLife</a></li>
+            <li><a href="../HomePage/index.html">Home</a></li>
+            <li><a href="../Projects/index.html">Projects</a></li>
+            <li><a href="../Contect/index.html">Contact</a></li>
+            <li><a href="../MyLife/index.html">MyLife</a></li>
         <!-- this icon is design to change the neight/daytime mode, nedd JS to implement later -->
         <div class="colorchange"><i class="bx bx-moon"></i></div>
         </ul>
     </header>
 
-    
+    <section class="contact-form">
+        <h1 class="contact-me-heading">Contact Me</h1>
+        <form action="mailto:yourmailid@gmail.com" class="form">
+            <input type="text" name="name" id="name" placeholder="Your Name">
+            <input type="text" name="email" id="email" placeholder="Your Email">
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter your message....."></textarea>
+            <button class="button">Send</button>
+        </form>
+    </section>
 </body>
 </html>
