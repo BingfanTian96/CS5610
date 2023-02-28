@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA5-Bingfan Tian</title>
+</head>
+
+<style>
+
+#area {
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-style: solid;
+}
+</style>
+
+<script type="text/javascript">
+    function changeColor() {
+        var colors = ["red", "blue", "green"];
+        var area = document.getElementById("area");
+        var colorInput = document.getElementById("color-input").value;
+        var massage = document.getElementById("massage");
+        if (colors.includes(colorInput)) {
+            area.style.backgroundColor = colorInput;
+        } else {
+            area.style.backgroundColor = "white";
+            massage.textContent = colorInput + " is not a valid color. Please choose green, blue or red.";
+            massage.style.color = "red";
+        }
+    }
+</script>
+
+<body>
+    <div id="area">
+    </div>
+    <div id="input-area">
+        <input type="text" id="color-input">
+        <button id="submit" onclick="changeColor()">Change color</button>
+        <p id="massage"></p>
+    </div>
+</body>
+</html>
